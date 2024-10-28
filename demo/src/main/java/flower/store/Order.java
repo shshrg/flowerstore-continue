@@ -1,4 +1,4 @@
-package flower.store.demo;
+package flower.store;
 import java.util.List;
 
 public class Order {

@@ -1,7 +1,6 @@
-package flower.store.demo;
+package flower.store;
 
-
-public class PostDeliveryStrategy implements Delivery{
+public class DHLDeliveryStrategy implements Delivery{
     private String address;
 
     @Override
@@ -16,7 +15,6 @@ public class PostDeliveryStrategy implements Delivery{
 
     @Override
     public String DeliveryNotification() {
-        return "Delivered with simple Post";
+        return "Delivered with DHL";
     }
 }
-

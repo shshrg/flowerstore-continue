@@ -1,7 +1,7 @@
-package flower.store.demo;
+package flower.store;
 
 import java.util.List;
-import flower.store.demo.Flower;
+import flower.store.Flower;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;

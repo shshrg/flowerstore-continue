@@ -1,4 +1,4 @@
-package flower.store.demo;
+package flower.store;
 
 public class Flower extends Item {
     public void setSepalLength(double sepalLength) {
