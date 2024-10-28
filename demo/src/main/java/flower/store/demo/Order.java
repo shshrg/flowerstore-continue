@@ -3,20 +3,20 @@ import java.util.List;
 
 public class Order {
     
-    private List<Item> items;
+    private List<Flower> flowers;
     private Delivery delivery;
 
-    public Order(List<Item> items, Delivery delivery) {
-        this.items = items;
+    public Order(List<Flower> flowers, Delivery delivery) {
+        this.flowers = flowers;
         this.delivery = delivery;
     }
 
-    public List<Item> getItems() {
-        return items;
+    public List<Flower> getItems() {
+        return flowers;
     }
 
-    public void setItems(List<Item> items) {
-        this.items = items;
+    public void setItems(List<Flower> flowers) {
+        this.flowers = flowers;
     }
 
     public Delivery getDelivery() {

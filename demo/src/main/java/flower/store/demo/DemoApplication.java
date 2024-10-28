@@ -21,8 +21,8 @@ public class DemoApplication {
 		return List.of(
 			new Order(
 				List.of(
-					new Flower("rose", "pink"),
-					new Flower("tulip", "white")
+					new Rose(),
+					new Tulip()
 				),
 				null
 			)
