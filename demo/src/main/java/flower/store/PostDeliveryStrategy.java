@@ -1,6 +1,5 @@
 package flower.store;
 
-
 public class PostDeliveryStrategy implements Delivery{
     private String address;
 
