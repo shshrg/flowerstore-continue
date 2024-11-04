@@ -1,4 +1,4 @@
-package flower.store;
+package flower.store.delivery;
 
 public interface Delivery {
 

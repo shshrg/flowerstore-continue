@@ -1,7 +1,7 @@
 package flower.store;
 import java.util.List;
 
-import flower.store.Delivery;
+import flower.store.delivery.Delivery;
 
 public class Order {
     
