@@ -1,7 +1,8 @@
 package com.example.demo;
 
-import flower.store.DHLDeliveryStrategy;
-import flower.store.PostDeliveryStrategy;
+import flower.store.delivery.DHLDeliveryStrategy;
+import flower.store.delivery.PostDeliveryStrategy;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

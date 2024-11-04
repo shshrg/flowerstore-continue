@@ -1,5 +1,8 @@
 package flower.store;
 
+import javax.persistence.MappedSuperclass;
+
+@MappedSuperclass
 public class Item {
     private Integer price;
     private String name;
