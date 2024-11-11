@@ -1,7 +1,5 @@
 package flower.store;
 
-import flower.store.Flower;
-
 import java.util.List;
 
 import org.springframework.boot.SpringApplication;
