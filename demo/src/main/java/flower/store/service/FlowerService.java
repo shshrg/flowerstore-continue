@@ -19,11 +19,6 @@ public class FlowerService {
         this.flowerRepository = flowerRepository;
     }
 
-    // @PostConstruct
-    // public void init() {
-    //     flowerRepository.save(new Rose());
-    //     flowerRepository.save(new Tulip());
-    // }
 
     public List<Flower> getFlowers() {
         return flowerRepository.findAll();
